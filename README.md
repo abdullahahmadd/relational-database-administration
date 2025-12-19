@@ -102,7 +102,7 @@ This workflow reflects a **realistic end-to-end DBA lifecycle** across multiple 
 
 | 1. Backup Role Privileges |
 |---------------------------|
-| ![PostgreSQL Backup Role Privileges](Results/PostgreSQL/postgresql_backup_role_privileges.png) |
+| ![PostgreSQL Backup Role Privileges](Results/PostgreSQL/privileges_backup_role.png) |
 | Backup role created and privileges assigned using PostgreSQL CLI. |
 
 ---
@@ -111,28 +111,28 @@ This workflow reflects a **realistic end-to-end DBA lifecycle** across multiple 
 
 | 1. Billing Tables Restored |
 |----------------------------|
-| ![MySQL Billing Tables](Results/MySQL/mysql_billing_tables_list.png) |
+| ![MySQL Billing Tables](Results/MySQL/billing_tables_list.png) |
 | Billing database successfully restored and verified. |
 
 ---
 
 | 2. Baseline Query Performance |
 |-------------------------------|
-| ![MySQL Baseline Query](Results/MySQL/mysql_baseline_query_explain.png) |
+| ![MySQL Baseline Query](Results/MySQL/baseline_query_explain.png) |
 | Query execution plan before indexing. |
 
 ---
 
 | 3. Query Performance After Index |
 |----------------------------------|
-| ![MySQL Indexed Query](Results/MySQL/mysql_query_explain_after_index.png) |
+| ![MySQL Indexed Query](Results/MySQL/query_explain_after_index.png) |
 | Improved performance after index creation. |
 
 ---
 
 | 4. Storage Engines |
 |--------------------|
-| ![MySQL Storage Engines](Results/MySQL/mysql_supported_storage_engines.png) |
+| ![MySQL Storage Engines](Results/MySQL/supported_storage_engines.png) |
 | Supported storage engines identified and analyzed. |
 
 ---
@@ -141,21 +141,21 @@ This workflow reflects a **realistic end-to-end DBA lifecycle** across multiple 
 
 | 1. Billing Data Restored |
 |--------------------------|
-| ![PostgreSQL Billing Table](Results/PostgreSQL/postgresql_billing_table_created.png) |
+| ![PostgreSQL Billing Table](Results/PostgreSQL/billing_table_created.png) |
 | Billing data restored from CSV into PostgreSQL. |
 
 ---
 
 | 2. View Created |
 |-----------------|
-| ![PostgreSQL View](Results/PostgreSQL/postgresql_basicbilldetails_view_created.png) |
+| ![PostgreSQL View](Results/PostgreSQL/basicbilldetails_view_created.png) |
 | View created to simplify billing queries. |
 
 ---
 
 | 3. Index Performance Comparison |
 |---------------------------------|
-| ![PostgreSQL Indexed Query](Results/PostgreSQL/postgresql_query_explain_after_index.png) |
+| ![PostgreSQL Indexed Query](Results/PostgreSQL/query_explain_after_index.png) |
 | Query performance improved using index on billedamount. |
 
 ---
@@ -170,7 +170,7 @@ This workflow reflects a **realistic end-to-end DBA lifecycle** across multiple 
 ---
 
 ## 📘 About this Project
-This project was developed as a **portfolio-focused database administration project**, designed to reflect **real-world DBA responsibilities**.  
-It highlights practical experience managing relational databases across **PostgreSQL and MySQL**, emphasizing performance, security, and data accessibility.
+- This project was developed as part of **IBM Data Engineering Specialization**, designed to reflect **real-world DBA responsibilities**.  
+- It highlights practical experience managing relational databases across **PostgreSQL and MySQL**, emphasizing performance, security, and data accessibility.
 
 ---
